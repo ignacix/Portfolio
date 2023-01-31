@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(82, 233, 22);
+    padding: 15px;
+    
+}
+
+
+
+/* SECCION-GENERAL*/
+section{
+    height: 720px;
+}
+section h2{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+/*CLASES GENERALES*/
+#centrado{
+ display: flex;
+ height: 50%;
+ width: 60%;
+
+ 
+ 
+
+}
+@media(max-width:800px){
+    #centrado{
+        height: 70%;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+}
+
+/*PRESENTACIÓN*/
+#presentacion{
+
+    height: 720px;
+    background-color: rgb(255, 0, 0);
+}
+header h1{
+    color: blanchedalmond;
+    font-family: Helvetica;
+    
+}
+#seccionPresentacion{
+    
+    height: 662px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+}
+
+#parrafoPerfil{
+    padding: 20px 0 0 20px;
+}
+
+
+/*PROYECTOS*/
+
+
+/*SOBRE MI*/
+
+
+/*CONTACTO*/
