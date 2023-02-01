@@ -22,33 +22,24 @@ section h2{
 
 }
 
-/*CLASES GENERALES*/
-#centrado{
- display: flex;
- height: 50%;
- width: 60%;
-
- 
- 
-
-}
-
-
 /*PRESENTACIÓN*/
 #presentacion{
 
     height: 720px;
-    background-color: rgb(255, 0, 0);
-    
+    background-color: rgb(255, 0, 0);    
 }
 
 header h1{
     color: white;
-    font-family: Helvetica; 
-    
+    font-family: Helvetica;     
 }
-#seccionPresentacion{
-    
+
+#centrado{
+    display: flex;
+    height: 50%;
+    width: 60%;
+   }
+#seccionPresentacion{    
     height: 662px;
     display: flex;
     justify-content: center;
@@ -69,7 +60,6 @@ img{
 #proyectos{ 
     background-color: blueviolet;
     height: 600px;
-
 }
 #seccionProyectos{
     height: 500px;
@@ -89,7 +79,34 @@ img{
 
 
 /*SOBRE MI*/
+    #sobreMi{
+        display: flex;
+        flex-direction: column;
+        background-color: darkorange;
+    }
 
+    #seccionVideo{
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe{
+        padding-top: 40px;
+        
+    }
+
+    #centrarParrafo{
+        display:flex ;
+        justify-content: center;
+    }
+
+    #sobreMiParrafo{
+        margin-top: 15px;
+        padding: 5px;
+        width: 60%;
+        border: 1px solid black;
+        
+    }
 
 /*CONTACTO*/
 
@@ -103,20 +120,18 @@ img{
         flex-direction: column;
         align-items: center;
     }
-
-
-
 }
+
 @media(max-width:720px){
     #proyectosCentrado{
         flex-wrap: wrap;
     }
-
-
 }
 
 @media(max-width:500px){
+    
     #proyectos{
         height: 900px;
     }
+
 }
