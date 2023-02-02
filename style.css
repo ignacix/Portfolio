@@ -101,7 +101,7 @@ img{
     }
 
     #sobreMiParrafo{
-        margin-top: 15px;
+        margin-top: 25px;
         padding: 5px;
         width: 60%;
         border: 1px solid black;
@@ -110,7 +110,7 @@ img{
 
 /*CONTACTO*/
 #contacto{
-    height: 600px;
+    height: 500px;
 }
 
 #cajaDeContacto{
@@ -143,25 +143,28 @@ img{
 
 #cajaDeRedes{
     width: 20%;
-    margin: 20px;
     padding: 10px;
 }
 
 #cajaDeRedes div{
-    border: 1px solid black;
-    padding: 30px;
     margin: 10px;
+}
 
+#cajaDeRedes div a img{
+    width: 100px;
 }
 
 
 /*FOOTER*/
 
 footer{
+    height: 30px;
     background-color: rgb(82, 233, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer p{
-    text-align: center;
     color: white;
 }
 
@@ -182,6 +185,31 @@ footer p{
         flex-wrap: wrap;
     }
 }
+
+@media(max-width:600px){
+
+    #cajaCentrar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cajaDeRedes{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    #cajaDeRedes div a img{
+        width: 100%;
+    }
+
+    #contacto{
+        height: 400px;
+    }
+
+}
+
 
 @media(max-width:500px){
     
