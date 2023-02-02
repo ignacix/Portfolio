@@ -109,6 +109,61 @@ img{
     }
 
 /*CONTACTO*/
+#contacto{
+    height: 600px;
+}
+
+#cajaDeContacto{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#cajaCentrar{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#cajaDeMail{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    width: 60%;
+    display:flex;
+    justify-content: center;
+}
+
+#cajaDeMail button{
+    display: block;
+}
+
+#cajaDeRedes{
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+}
+
+#cajaDeRedes div{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(82, 233, 22);
+}
+footer p{
+    text-align: center;
+    color: white;
+}
 
 
 /*@MEDIA*/
