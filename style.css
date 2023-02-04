@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: rgb(82, 233, 22);
+    background-color: #3e76f8;
     padding: 15px;
     
 }
@@ -21,12 +21,16 @@ section h2{
     font-size: xx-large;
 
 }
+img{
+    width: 200px;
+
+}
 
 /*PRESENTACIÓN*/
 #presentacion{
 
     height: 720px;
-    background-color: rgb(255, 0, 0);    
+    background-color:white;    
 }
 
 header h1{
@@ -46,21 +50,40 @@ header h1{
     align-items: center;
 }
 
-img{
-    width: 200px;
+#fotoPerfil img{
+    border-radius: 50%;
+    box-shadow: -4px 3px 15px 1px rgba(0,0,0,0.53);
+}
+#parrafoPerfil h3{
+    color: rgb(105, 102, 102);
+    font-size: xx-large;
 }
 
 #parrafoPerfil{
+    font-size: larger;
     padding: 20px 0 0 20px;
+    color: black;
+}
+
+#parrafoPerfil p{
+    margin-top: 10px;
 }
 
 
 /*PROYECTOS*/
 
 #proyectos{ 
-    background-color: blueviolet;
+    background-color: #779efa;
+    background-image:  radial-gradient(#3e76f8 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#2d5fd4 1.9000000000000001px, #316aee 1.9000000000000001px);
+    background-size: 76px 76px;
+    background-position: 0 0,38px 38px;
     height: 600px;
 }
+
+#proyectos div h2{
+    color: white;
+}
+
 #seccionProyectos{
     height: 500px;
 }
@@ -74,15 +97,39 @@ img{
 
 #proyectosCentrado div{
     margin: 20px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    border-radius: 15px;
+    box-shadow: -4px 3px 15px 1px rgba(0,0,0,0.53);
 }
 
+#proyectosCentrado div img{
+    object-fit: cover;
+    height: 200px;
+}
+
+#proyectosCentrado div p{
+    text-align: center;
+    width: 200px;
+}
+
+.tituloProyecto{
+    color: white;
+    font-size: larger;
+}
 
 /*SOBRE MI*/
     #sobreMi{
         display: flex;
         flex-direction: column;
-        background-color: darkorange;
+        background-color: #779efa;
+        background-image:  radial-gradient(#3e76f8 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#2d5fd4 1.9000000000000001px, #316aee 1.9000000000000001px);
+        background-size: 76px 76px;
+        background-position: 0 0,38px 38px;
+
+    }
+
+    #sobreMi div h2{
+        color: white;
     }
 
     #seccionVideo{
@@ -102,10 +149,12 @@ img{
 
     #sobreMiParrafo{
         margin-top: 25px;
-        padding: 5px;
+        padding: 10px;
         width: 60%;
-        border: 1px solid black;
-        
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+        background-color: rgb(204, 197, 230);
+        border-radius: 15px;
+
     }
 
 /*CONTACTO*/
@@ -125,11 +174,9 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid black;
 }
 
 #cajaDeMail{
-    border: 1px solid black;
     margin: 20px;
     padding: 10px;
     width: 55%;
@@ -143,6 +190,16 @@ img{
 form{
     margin-top: 30px;
     
+}
+
+#cajaDeMail form input{
+    width: 100%;
+}
+
+#btnEnviar{
+    border: none;
+    background-color: #316aee;
+    padding: 5px 10px;
 }
 
 #mensaje{
@@ -170,10 +227,11 @@ form{
 
 footer{
     height: 30px;
-    background-color: rgb(82, 233, 22);
+    background-color: #3e76f8;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 footer p{
     color: white;
@@ -195,9 +253,20 @@ footer p{
     #proyectosCentrado{
         flex-wrap: wrap;
     }
+    #proyectos{
+        height: 700px;
+    }
+    
+    #cajaDeMail{
+        margin-bottom: 10px;
+    }
 }
 
 @media(max-width:600px){
+
+#parrafoPerfil{
+    text-align: center;
+}
 
     #cajaCentrar{
         display: flex;
@@ -223,7 +292,7 @@ footer p{
 @media(max-width:500px){
     
     #proyectos{
-        height: 900px;
+        height: 1000px;
     }
 
 }
