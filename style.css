@@ -34,6 +34,7 @@ img{
 }
 
 header h1{
+    padding-left: 25px;
     color: white;
     font-family: Helvetica;     
 }
@@ -74,7 +75,7 @@ header h1{
 
 #proyectos{ 
     background-color: #779efa;
-    background-image:  radial-gradient(#3e76f8 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#2d5fd4 1.9000000000000001px, #316aee 1.9000000000000001px);
+    background-image:  radial-gradient(#3e76f8 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#2d5fd4 1.9000000000000001px, #97969b 1.9000000000000001px);
     background-size: 76px 76px;
     background-position: 0 0,38px 38px;
     height: 600px;
@@ -100,6 +101,7 @@ header h1{
     border: 1px solid rgba(0, 0, 0, 0.322);
     border-radius: 15px;
     box-shadow: -4px 3px 15px 1px rgba(0,0,0,0.53);
+    background-color: white;
 }
 
 #proyectosCentrado div img{
@@ -110,10 +112,12 @@ header h1{
 #proyectosCentrado div p{
     text-align: center;
     width: 200px;
+    
 }
 
 .tituloProyecto{
     color: white;
+    background-color: #316aee;
     font-size: larger;
 }
 
@@ -122,7 +126,7 @@ header h1{
         display: flex;
         flex-direction: column;
         background-color: #779efa;
-        background-image:  radial-gradient(#3e76f8 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#2d5fd4 1.9000000000000001px, #316aee 1.9000000000000001px);
+        background-image:  radial-gradient(#3e76f8 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#2d5fd4 1.9000000000000001px, #97969b 1.9000000000000001px);
         background-size: 76px 76px;
         background-position: 0 0,38px 38px;
 
