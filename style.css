@@ -44,12 +44,14 @@ header h1{
     display: flex;
     width: 60%;
     padding: 40px;
+    padding-bottom: 50px;
     background-color: lightgray;
     border-color: transparent;
     border-radius: 50px;
     animation-name: animacion;
     animation-duration: 1.5s;
     animation-delay: 1s;
+    
    }
 
 @keyframes animacion {
