@@ -216,16 +216,20 @@ form{
     margin-top: 10px;
     display:flex;
     flex-direction: column;
-    
 }
+
+
+
 .apariencia{
     border-radius: 50px;
     border-color: transparent;
     background-color: lightgray;
+    padding:15px; 
 }
 
 #cajaDeMail form input{
     width: 100%;
+    padding: 5px;
 }
 
 #btnEnviar{
